@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+a="QM YR JYQR WMS YPC Y NWRFML ESW"
+b=a.lower()
+for i in b:
+  if ord(i)==32:
+     print chr(ord(i))
+  elif ord(i)+2<=122:     
+     print chr(ord(i)+2)
+  else:    
+     print chr(ord(i)-24)
+          
